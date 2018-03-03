@@ -27,7 +27,7 @@ function Escrow(address buyer_address, address seller_address) public {
             payBalance();
         } else if (buyerOk && !sellerOk && now > start + 30 days) {
             // Freeze 30 days before release to buyer. The customer has to remember to call this method after freeze period.
-            //selfdestruct(buyer);
+            selfdestruct(buyer);
         }
     }
     
@@ -38,7 +38,7 @@ function Escrow(address buyer_address, address seller_address) public {
         if (seller.send(this.balance)) {
             balance = 0;
         } else {
-            throw;
+            //throw;
         }
     }
     

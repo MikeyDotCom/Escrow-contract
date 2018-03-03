@@ -12,7 +12,7 @@ What is Mist? Mist is the browser for decentralized web apps on the Ethereum blo
 3)  Once the application installed you can open the application. The first time it will start downloading the live Ethereum blockchain. Click the "Launch application" button to start the application user interface.
 
 
-Configuration
+Configuration:
 
 4) In the menu bar at the top, go to: "Develop" => "Network" => Select "Rinkeby - Test network". Mist will now downlaod the Ethereum test blockchain, where you can test out Smart contracts.
 
@@ -20,13 +20,13 @@ Configuration
 
 6) Repeat stap 5 until you have 3 different accounts. Rename de accounts into, Escrow, Buyer and Seller. You can rename the account by clicking on the account. Then double click on Account, you can rename it. 
 
-Fund accounts
+Fund accounts:
 
 7) In order to get some Ether tokens for the test network, go to https://faucet.rinkeby.io/ and follow the instructions. Send the Ether to the Escrow account. 
 
 8) Once you have received funds in you Escrow account, you can send 1 ether to you Buyers account. Click on the "Send" button and fill in the form.  
 
-Run the contract
+Run the contract:
 
 9) Now that the Escrow and the Buyer accounts are funded, you can test the Escrow contract. Go to "Contracts" => click on the "Deploy new contract" => If the "From" field select the "Escrow" account => Left amount blank => copy the code from this repository "Escrow.sol" => Delete the example code in the "Solidity contract source code" window => Past the code you just copied.
 

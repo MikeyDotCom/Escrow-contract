@@ -48,4 +48,4 @@ Run the contract
 
 18) Under "Write to contract" select function "Accept" => Execute from, select "Seller" => Click "Execute" => type your password and click "Send transaction". Once you have 1 confirmation you can continue with the next stap.
 
-19) 1 Ether is subtracted form the buyer account and added to the seller account. End of process!
+19) Voilà, 1 Ether is subtracted form the buyer account and added to the seller account. End of process!

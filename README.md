@@ -3,6 +3,13 @@ Developed with Mist and solidity
 
 This project demonstrats a simple Escrow contract developed on the Ethereum test network with mist in Solidity.
 
+
+What is 'Escrow'
+
+Escrow is a legal concept in which a financial instrument or an asset is held by a third party on behalf of two other parties that are in the process of completing a transaction. The funds or assets are held by the escrow agent until it receives the appropriate instructions or until predetermined contractual obligations have been fulfilled. Money, securities, funds, and other assets can all be held in escrow.
+
+Read more: Escrow https://www.investopedia.com/terms/e/escrow.asp#ixzz58sXL4ESN
+
 Installation:
 1)  Download Mist: https://github.com/ethereum/mist/releases
 What is Mist? Mist is the browser for decentralized web apps on the Ethereum blockchain.  
@@ -18,7 +25,7 @@ Configuration:
 
 5) Once the blockchain has been downloaded you have to create you accounts. In the menu bar at the left, click on the green "Wallets" icon => Click "Add account". => Click "Create new account" => enter a password and click "Ok" => A new account is added to your overview. 
 
-6) Repeat stap 5 until you have 3 different accounts. Rename de accounts into, Escrow, Buyer and Seller. You can rename the account by clicking on the account. Then double click on Account, you can rename it. 
+6) Repeat stap 5 until you have 3 different accounts. Rename de accounts into, Escrow, Buyer and Seller. You can rename the account by clicking on the account. Then double click on Account, you can now rename your account. 
 
 Fund accounts:
 

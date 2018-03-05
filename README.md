@@ -1,8 +1,9 @@
 # Escrow-contract
 Developed with Mist and solidity
 
-This project demonstrats a simple Escrow contract developed on the Ethereum test network with mist in Solidity.
+source: https://medium.com/@pranav.89/smart-contracting-simplified-escrow-in-solidity-ethereum-b19761e8fe74
 
+This project demonstrats a simple Escrow contract developed on the Ethereum test network with mist in Solidity.
 
 What is 'Escrow'
 
